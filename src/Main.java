@@ -18,7 +18,7 @@ public class Main {
     public static int[] getIntegers(int size){
         //array holds the integer values entered by the user
         int[] array = new int[size];
-        //inform the user to enter any values based on size
+        //ask the user to enter any value from the keyboard
         System.out.println("Enter " + size + " integer values:\r");
         for (int i = 0; i<array.length; i++){
             array[i] = scanner.nextInt();
